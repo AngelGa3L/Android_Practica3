@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mi app"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/expl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:text="Intents Explicitos" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expl"
+        android:layout_marginTop="20dp"
+        android:text="1"/>
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton1"
+        android:layout_marginTop="20dp"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton2"
+        android:layout_marginTop="20dp"
+        android:text="3"/>
+    <Button
+        android:id="@+id/boton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton3"
+        android:layout_marginTop="20dp"
+        android:text="4"/>
+
+    <TextView
+        android:id="@+id/implicitos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:text="Intents Implicitos" />
+    <Button
+        android:id="@+id/boton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/implicitos"
+        android:layout_marginTop="20dp"
+        android:text="1"/>
+    <Button
+        android:id="@+id/boton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton5"
+        android:layout_marginTop="20dp"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/boton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton6"
+        android:layout_marginTop="20dp"
+        android:text="3"/>
+    <Button
+        android:id="@+id/boton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton7"
+        android:layout_marginTop="20dp"
+        android:text="4"/>
+
+
+</RelativeLayout>
